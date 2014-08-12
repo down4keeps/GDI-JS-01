@@ -18,12 +18,9 @@ function calculate() {
 	}
 
 function favoriteThings() {
-	var faveThings = " ";
-	var things = ['Music', 'Laughter', 'Love'];
-	for (var i = 0; i < things.length; i++) {
-		faveThings += things[i] + ", ";
-	}
-
-	alert("My favorite things are" + faveThings);
-
+	var faveThings = ['Music', 'Laughter', 'Love'];
+	for (var i = 0; i < faveThings.length; i++) {
+		var msg = "My favorite things are " + faveThings[0] + ", " + faveThings[1] + " and " + faveThings[2] + ".";
+		}
+	alert(msg);
 	}
